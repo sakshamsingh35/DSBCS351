@@ -1,0 +1,30 @@
+#include<stdio.h>
+struct node*{
+    int=data;
+    struct node *new;
+};
+int main(){
+    
+    struct node *new;
+    struct node *temp;
+    struct node *head;
+    int n;
+    printf("enter no. of nodes");
+    for(int i=1; i<n+1; i++){
+        new=(struct node*)malloc(sizeof(struct node));
+        printf("enter data");
+        sacnf("%d",&new.data);
+        if(head==NULL){
+            head=new;
+            temp=new;
+        }
+        else{
+            temp.next=temp;
+            temp=new;
+        }
+    }
+    while(temp!=NULL){
+        printf(temp.data);
+        temp=temp.next
+    }
+}
